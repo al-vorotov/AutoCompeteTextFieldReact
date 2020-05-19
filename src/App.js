@@ -36,8 +36,8 @@ class App extends Component {
     return (
         <div>
           <div>
-            <h2>AutoCompletion demo</h2>
-            <p><i>Hint:</i> {`input ${trigger}a to see in action`}</p>
+            <h2>AutoCompletion input</h2>
+            <p><i>Just</i> {`input ${trigger}a to see in action`}</p>
             <AutoCompleteTextField
                 disabled={disabled}
                 options={options}
